@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #efe8e8;
+	background-size: 100%;
+	color: #b7b7cf;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+
+/* ? ----- PORTADA ----- */
+.portada {
+	width: 100%;
+    display: flex;
+	min-height: 100vh;
+    position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: top;
+	text-align: center;
+	transition: .5s ease-out all;
+}
+
+
+
+.portada .header {
+    position: center;
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.portada .header .logotipo {
+	font-size: 50px;
+	font-size: 900;
+	margin-bottom: 20px;
+}
+
+.portada .header .mensaje {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+
+
+
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.simply-section {
+    position: relative;
+    left: 650px;
+	background: #595555;
+    width: 180px;
+	height: 180px;
+	margin: 20 0px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+
+/* ? ---------------------------- */
+
+.resolucion {
+	width: 99%;
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+	.desktop {
+		display: none;
+	}
+	.tablet {
+		display: none;
+	}
+	.tv {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+	.desktop {
+		display: none;
+	}
+	.phone {
+		display: none;
+	}
+	.tv {
+		display: none;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1920px) {
+	.phone {
+		display: none;
+	}
+	.tablet {
+		display: none;
+	}
+	.tv {
+		display: none;
+	}
+}
+
+@media (min-width: 1921px) {
+	.phone {
+		display: none;
+	}
+	.tablet {
+		display: none;
+	}
+	.desktop {
+		display: none;
+	}
+}
